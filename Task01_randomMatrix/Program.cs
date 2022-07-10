@@ -53,6 +53,7 @@ namespace Task01_randomMatrix
             }
             Console.WriteLine(new String('=', _countChars));
             Console.WriteLine($"Сумма всех чисел в матрице: {_sum}");
+            Console.ReadKey();
         }
     }
 }
